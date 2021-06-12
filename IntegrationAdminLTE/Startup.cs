@@ -59,7 +59,7 @@ namespace IntegrationAdminLTE
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Admin}/{action=Index}/{id?}");
+                    pattern: "{controller=Products}/{action=ProductList}/{id?}");
             });
         }
     }
